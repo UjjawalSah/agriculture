@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0; 
+  }
+  
+  .navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    /* height: 74px;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64e162;
+  }
+  
+  .nav-left {
+    display: flex;
+  }
+  
+  .nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+  }
+  
+  .nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+    padding-bottom: 23px;
+  }
+  
+  .nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+  }
+  
+  .content {
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    background-color: #d9eaae;
+  }
+  
+  .content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+  }
+  
+  .content-left {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+  }
+  
+  .content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-right img {
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+  }
+  
+  .home-articles {
+    padding: 18px;
+    background-color: rgba(176, 243, 248, 0.43);
+    margin-top: 23px;
+    position: relative;
+  }
+  
+  .home-article {
+    display: flex;
+    margin: 25px;
+    background-color: #96e0b4;
+  }
+  
+  .home-article img {
+    width: 300px;
+    border-radius: 52px;
+  }
+  
+  .home-article-content {
+    align-self: center;
+    padding: 25px;
+    color: black;
+  }
+  
+  .home-article-content a {
+    text-decoration: none;
+    color: black;
+  }
+  .footer {
+    height: 50px;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+  }
+  
+  .footer a {
+    color: white;
+  }
+  
